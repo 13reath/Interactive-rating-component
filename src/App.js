@@ -38,7 +38,7 @@ function RatingCard({ rating, setRating, onSubmit }) {
 
 const StarIcon = () => (
   <div className="star-icon">
-    <img src="/images/icon-star.svg" alt="Star" />
+    <img src={process.env.PUBLIC_URL + "/images/icon-star.svg"} alt="Star" />
   </div>
 );
 
@@ -79,9 +79,8 @@ function ThankYouCard({ rating, onClose }) {
       <SelectedRating rating={rating} />
       <Title>Thank you!</Title>
       <Description>
-        We appreciate you taking the time to give a rating.
-        <br />
-        If you ever need more support, don't hesitate to get in touch!
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
       </Description>
       <CloseButton onClose={onClose} />
     </div>
@@ -90,7 +89,7 @@ function ThankYouCard({ rating, onClose }) {
 
 const ThankYouImage = () => (
   <img
-    src="/images/illustration-thank-you.svg"
+    src={process.env.PUBLIC_URL + "/images/illustration-thank-you.svg"}
     alt="Thank you"
     className="thank-you-image"
   />
