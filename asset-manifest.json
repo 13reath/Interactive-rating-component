@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Interactive-rating-component.git/static/css/main.abfa2d48.css",
-    "main.js": "/Interactive-rating-component.git/static/js/main.013c7d3c.js",
-    "index.html": "/Interactive-rating-component.git/index.html",
-    "main.abfa2d48.css.map": "/Interactive-rating-component.git/static/css/main.abfa2d48.css.map",
-    "main.013c7d3c.js.map": "/Interactive-rating-component.git/static/js/main.013c7d3c.js.map"
+    "main.css": "/Interactive-rating-component/static/css/main.abfa2d48.css",
+    "main.js": "/Interactive-rating-component/static/js/main.013c7d3c.js",
+    "index.html": "/Interactive-rating-component/index.html",
+    "main.abfa2d48.css.map": "/Interactive-rating-component/static/css/main.abfa2d48.css.map",
+    "main.013c7d3c.js.map": "/Interactive-rating-component/static/js/main.013c7d3c.js.map"
   },
   "entrypoints": [
     "static/css/main.abfa2d48.css",
